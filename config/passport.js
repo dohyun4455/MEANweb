@@ -24,8 +24,8 @@ module.exports = function(passport) {
 
 
   passport.use('kakao-login', new KakaoStrategy({
-    clientID: 'dc780e41dc1a2f6693ed85c5cbaaf803',
-    clientSecret: 'JqeyPWbjgW90Qjdo6WsXBh7puEXVL3Tj',
+    clientID: '모자이크',
+    clientSecret: '모자이크',
     callbackURL: 'http://46.101.84.253:8080/auth/kakao/callback'
   },
   function(accessToken, refreshToken, profile, done) {
